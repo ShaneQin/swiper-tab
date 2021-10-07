@@ -1,0 +1,3 @@
+<swiper bindchange="handlSwiperChange" current="{{ current }}" style="height: {{ height }}px;">
+   <slot></slot>
+</swiper>

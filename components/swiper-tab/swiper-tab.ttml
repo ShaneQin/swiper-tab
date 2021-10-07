@@ -1,0 +1,4 @@
+<swiper-tab-header data="{{ headerData }}" current="{{ current }}" bindchangetab="handleTabChange"></swiper-tab-header>
+<swiper-tab-body current="{{ current }}" bindchangetab="handleTabChange">
+  <slot></slot>
+</swiper-tab-body>

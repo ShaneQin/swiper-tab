@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "swiper-tab-header": "../swiper-tab-header/swiper-tab-header",
+    "swiper-tab-body": "../swiper-tab-body/swiper-tab-body"
+  }
+}

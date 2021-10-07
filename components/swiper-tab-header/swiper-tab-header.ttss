@@ -1,0 +1,12 @@
+.swiper-tab-header__scroll {
+  white-space: nowrap;
+}
+
+.swiper-tab-header__item {
+  display: inline-block;
+  margin-right: 20rpx;
+}
+
+.swiper-tab-header__item.active {
+  color: red;
+}

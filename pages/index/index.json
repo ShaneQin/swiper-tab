@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "swiper-tab": "../../components/swiper-tab/swiper-tab",
+    "swiper-tab-item": "../../components/swiper-tab-item/swiper-tab-item"
+  }
+}

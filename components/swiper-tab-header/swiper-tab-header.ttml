@@ -1,0 +1,7 @@
+<view class="swiper-tab-header">
+  <scroll-view class="swiper-tab-header__scroll" scroll-with-animation="true" scroll-x="true" scroll-left="{{ scrollLeft }}" bindscroll="handleScroll">
+    <view class="swiper-tab-header__item {{ current === index ? 'active' : '' }}" tt:for="{{ data }}" data-index="{{ index }}" bindtap="handleTabTap">
+      {{ item }}
+    </view>
+  </scroll-view>
+</view>

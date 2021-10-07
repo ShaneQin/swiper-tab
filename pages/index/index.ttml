@@ -1,0 +1,7 @@
+<swiper-tab header-data="{{ headerData }}">
+  <swiper-tab-item tt:for="{{ bodyData }}">
+    <view tt:for="{{item}}">
+      <view>{{ item }}</view>
+    </view>
+  </swiper-tab-item>
+</swiper-tab>

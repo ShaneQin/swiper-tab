@@ -1,0 +1,5 @@
+<swiper-item>
+  <scroll-view scroll-y="true" style="height: 100%;">
+    <slot></slot>
+  </scroll-view>
+</swiper-item>
